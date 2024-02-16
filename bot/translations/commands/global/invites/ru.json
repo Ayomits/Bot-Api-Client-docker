@@ -1,0 +1,21 @@
+{
+    "mainEmbed": {
+        "title": "Приглашения",
+        "description": "Всего приглашений %invites%\nПокинутых сервер %leaves%\nПользователей которые остались на сервере %total%\n%you_or_other%",
+        "invitedBy": {
+            "you": "Вас пригласил %invitedBy%",
+            "other": "Данного пользователя пригласил %invitedBy%"
+        }
+    },
+    "mainCollector": {
+        "buttonLabel": "Детальнее"
+    },
+    "invitesDetails": {
+        "text": "Пользователь %user%\nПриглашён пользователем %inviter%\nАйди приглашением %ID%\nВремя приглашения %timestamp%%timestampFull%\nКод приглашения %inviteCode%%bot%%leave%",
+        "leave": "Пользователь покинул сервер в %timestamp%%timestampFull%\nАйди покидания %ID%",
+        "timestampLeaveFull": "Полное время покидания сервера %timestamp%",
+        "timestampFull": "\nПолное время приглашения: %timestamp%",
+        "userBot": "\nПользователь являеться ботом",
+        "userNotBot": "\nПользователь не являеться ботом"
+    }
+}

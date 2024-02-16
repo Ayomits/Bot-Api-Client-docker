@@ -1,0 +1,97 @@
+{
+    "cannotFindCommand": {
+        "mainMessage": "Простите, но я не смог найти данную команду, вот ${1message} на написанную вами команду. ${2message}\n${commands}",
+        "oneCommand": {
+            "1message": "команда которая похожа",
+            "2message": "Если это та команда которую вы хотели выполнить, то нажмите на соответствующую кнопку ниже",
+            "3message": "Выполнить команду `${command}`"
+        },
+        "manyCommands": {
+            "1message": "несколько команд которые похожи",
+            "2message": "Если в данном списке есть нужная вам команда, то нажмите на соответствующую кнопку с номером команды"
+        }
+    },
+    "buttons": {
+        "run": {
+            "label": "Запустить команду"
+        },
+        "dontRun": {
+            "label": "Не запускать команду"
+        }
+    },
+    "collector": {
+        "command": {
+            "launch": "Выполнение команды `${commandName}` начато...",
+            "dontLaunch": "Команда которая больше всего похожа на написанную вами не была выполнена"
+        }
+    },
+    "errors": {
+        "notYourButtons": "Простите, но это не ваши кнопки, и вы не можете взаимодействовать с этими кнопками. Пожалуйста напишите какую-то команду что бы вы миог взаимодействать с своими кнопкамии",
+        "dontHavePermissions": {
+            "mainMessage": "Простите, но для выполнения данной команды ${user_or_client} ${1_or_2_Message} на `${requiredPermissions}`",
+            "user": "мне",
+            "client": "вам",
+            "1additionalMessage": "необходимо право",
+            "2additionalMessage": "необходимы права"
+        },
+        "commandExecute": {
+            "embed": {
+                "title": "Ошибка",
+                "description": "Простите, но при выполнении данной команды произошла ошибка\n```js\n${error}```",
+                "color": "#ff0000"
+            }
+        }
+    },
+    "permissionsTranslation": {
+        "CreateInstantInvite": "создание приглашений",
+        "KickMembers": "удаление участников",
+        "BanMembers": "блокировка участников",
+        "Administrator": "администратор",
+        "ManageChannels": "управление каналами",
+        "ManageGuild": "управление сервером",
+        "AddReactions": "добавление реакций",
+        "ViewAuditLog": "просмотр журнала аудита",
+        "PrioritySpeaker": "приоритетный режим",
+        "Stream": "стрим",
+        "ViewChannel": "просмотр канала",
+        "SendMessages": "отправка сообщений",
+        "SendTTSMessages": "отправка TTS-сообщений",
+        "ManageMessages": "управление сообщениями",
+        "EmbedLinks": "вставка ссылок",
+        "AttachFiles": "прикрепление файлов",
+        "ReadMessageHistory": "чтение истории сообщений",
+        "MentionEveryone": "упоминание всех",
+        "UseExternalEmojis": "использование внешних эмодзи",
+        "ViewGuildInsights": "просмотр статистики сервера",
+        "Connect": "подключение к голосовому каналу",
+        "Speak": "голосовой чат",
+        "MuteMembers": "отключение микрофона участников",
+        "DeafenMembers": "отключение звука участников",
+        "MoveMembers": "перемещение участников",
+        "UseVAD": "использование функции автоматической активации голоса",
+        "ChangeNickname": "изменение никнейма",
+        "ManageNicknames": "управление никнеймами",
+        "ManageRoles": "управление ролями",
+        "ManageWebhooks": "управление вебхуками",
+        "ManageEmojisAndStickers": "управление эмодзи и стикерами",
+        "ManageGuildExpressions": "управление выражениями сервера",
+        "UseApplicationCommands": "использование команд приложения",
+        "RequestToSpeak": "запрос на выступление",
+        "ManageEvents": "управление событиями",
+        "ManageThreads": "управление тредами",
+        "CreatePublicThreads": "создание публичных тредов",
+        "CreatePrivateThreads": "создание приватных тредов",
+        "UseExternalStickers": "использование внешних стикеров",
+        "SendMessagesInThreads": "отправка сообщений в тредах",
+        "UseEmbeddedActivities": "использование встроенных активностей",
+        "ModerateMembers": "модерирование участников",
+        "ViewCreatorMonetizationAnalytics": "просмотр аналитики монетизации создателя",
+        "UseSoundboard": "использование звуковой доски",
+        "UseExternalSounds": "использование внешних звуков"
+    },
+    "commndExecuteErrorEmbed": {
+        "title": "Ошибка",
+        "description": "Простите, но при выполнении данной команды произошла ошибка\n```js\n${error}```",
+        "color": "#ff0000"
+    }
+}

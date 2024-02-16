@@ -1,0 +1,6 @@
+{
+    "calculated": "Ответ на ваш пример %calculated%",
+    "error": "Простите, но я не могу правильно посчитать ваш пример\nВозможно вы что-то ввели с ошибкой?%developlerInfo%",
+    "developlerInfo": "Ошибка %error%",
+    "debugMode": "Режим отладки `\n%calculated%`"
+}

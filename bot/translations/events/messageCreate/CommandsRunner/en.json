@@ -1,0 +1,14 @@
+{
+    "cannotFindUserCommand": "I'm sorry, but I couldn't find the command you requested. ${1message} is the command you wrote. ${2message}\n${commands}",
+    "oneCommand": {
+        "1message": "Similar command found",
+        "2message": "If this is the command you intended to execute, please press the corresponding button below",
+        "3message": "Execute command ${command}"
+    },
+    "manyCommands": {
+        "1message": "Multiple similar commands found",
+        "2message": "If the desired command is in this list, please press the corresponding button with the command number"
+    },
+    "commandsRunner_yes_ButtonLabel": "Run command",
+    "commandsRunner_don'tRunCommand_ButtonLabel": "Don't run command"
+}
